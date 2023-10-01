@@ -63,14 +63,10 @@ h1 {
 }
 
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 736px) {
 #copy-button {
-    color: lightgreen;
-    background-color: #1a1a1a;
-    border: none;
-    margin-left: 27px;
-    margin-top: 3px;
-    cursor: pointer;
+display: none;
+visibility: hidden;
 }
     }
 
