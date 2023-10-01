@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/copy.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div id="password-generator">
+        <div id="gen">
+        <h1>Password Generator</h1>
+        </div>
+        <div id="password-display-box">
+            <input id="password-display" disabled="disabled">
+            <button id="copy-button"><i class="gg-copy"></i></button>
+        </div>
+        <div id="password-options">
+            <div>
+                <span>Character Length</span>
+                <span id="length-display">10</span>
+                <input type="range" id="length-slider" min="1" max="100" value="10" step="1">    
+            </div>
+            <div class="checkbox">
+            <div><input type="checkbox" id="include-uppercase" class="pretty-checkbox" checked> Include Uppercase Letters</div>
+            <div><input type="checkbox" id="include-lowercase" class="pretty-checkbox" checked> Include Lowercase Letters</div>
+            <div><input type="checkbox" id="include-numbers" class="pretty-checkbox"> Include Numbers</div>
+            <div><input type="checkbox" id="include-symbols" class="pretty-checkbox"> Include Symbols</div>
+            </div>
+            <div id="password-strength">
+                <div id="strength-boxes">
+                    <div id="strength-1"></div>
+                    <div id="strength-2"></div>
+                    <div id="strength-3"></div>
+                    <div id="strength-4"></div>
+                </div>
+            </div>
+            <div id="texto">
+            <span>Strength</span>
+            <span id="strength-text"></span></div>
+            <button id="generate-button">Generate</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
