@@ -62,6 +62,19 @@ h1 {
     cursor: pointer;
 }
 
+
+@media only screen and (max-device-width: 480px) {
+#copy-button {
+    color: lightgreen;
+    background-color: #1a1a1a;
+    border: none;
+    margin-left: 35px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+    }
+
+
 #password-options {
     border-radius: 0px;
     background: #121212;
