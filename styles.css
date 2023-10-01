@@ -70,6 +70,21 @@ visibility: hidden;
 }
     }
 
+@media only screen and (max-device-width: 736px) {
+
+#password-display {
+    border-radius: 0px;
+    background: #121212;
+    box-shadow:  1px 1px 5px #121212,
+                 -1px -1px 5px #121212;
+    color: white;
+    border:none;
+    font-weight: bold;
+    font-size:medium;
+box-sizing:border-box;
+}
+}
+
 
 #password-options {
     border-radius: 0px;
